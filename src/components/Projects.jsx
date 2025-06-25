@@ -51,6 +51,16 @@ const Projects = () => (
         </a>
       ))}
     </div>
+      <div className="mt-12 text-center">
+      <a
+        href="https://github.com/priyanshu99ku"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block btn btn-outline btn-primary border-2 border-primary px-8 py-3 text-lg font-semibold transition-transform hover:-translate-y-0.5 shadow-md hover:shadow-lg"
+      >
+        <span className="mr-2">📂</span> View More on GitHub
+      </a>
+    </div>
   </section>
 );
 
