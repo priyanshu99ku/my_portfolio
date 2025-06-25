@@ -8,8 +8,8 @@ const Plexus = () => {
   const pointsRef = useRef();
 
   const numPoints = 100;
-  const maxDist = 10;
-  const speedFactor = 0.1;
+  const maxDist = 8;
+  const speedFactor = 0.05;
 
   const points = useMemo(() => {
     return Array.from({ length: numPoints }, () => ({
@@ -63,7 +63,7 @@ const Plexus = () => {
       </points>
       <lineSegments ref={lineRef}>
         <bufferGeometry />
-        <lineBasicMaterial color="#facc15" transparent opacity={0.1} />
+        <lineBasicMaterial color="#f59e0b" transparent opacity={0.2} linewidth={2} />
       </lineSegments>
     </>
   );

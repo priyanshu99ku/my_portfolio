@@ -29,16 +29,16 @@ const Sidebar = () => {
       )}
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-64 bg-base-100 shadow-lg z-50 transform transition-transform duration-200 md:translate-x-0 ${open ? 'translate-x-0' : '-translate-x-full'} md:static md:block md:w-56`}
+        className={`fixed top-0 left-0 h-full w-64 bg-transparent backdrop-blur-md border-r border-primary/25 shadow-inner z-50 transform transition-transform duration-200 md:translate-x-0 ${open ? 'translate-x-0' : '-translate-x-full'} md:static md:block md:w-64`}
       >
         <div className="flex flex-col h-full p-4 gap-4">
-          <div className="text-2xl font-bold mb-8 text-primary">My Portfolio</div>
+          <div className="text-2xl font-bold mb-8 text-primary text-center">My Portfolio</div>
           <nav className="flex flex-col gap-2">
             {navLinks.map(link => (
               <Link
                 key={link.name}
                 to={link.href}
-                className="btn btn-ghost justify-start text-lg"
+                className="block p-2 rounded-md border-2 border-primary/50 hover:bg-primary hover:text-black transition-all duration-200 text-lg"
                 onClick={() => setOpen(false)}
               >
                 {link.name}

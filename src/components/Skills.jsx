@@ -5,7 +5,7 @@ const skills = [
 ];
 
 const Skills = () => (
-  <section id="skills" className="py-8 px-4 md:px-8 max-w-3xl mx-auto">
+  <section id="skills" className="py-8 px-4 md:px-8 max-w-3xl mx-auto border-2 border-primary/40 rounded-xl shadow-primary/20 shadow-lg backdrop-blur-sm bg-white/5">
     <h2 className="text-2xl font-bold mb-4">Skills</h2>
     <div className="flex flex-wrap gap-3">
       {skills.map(skill => (
