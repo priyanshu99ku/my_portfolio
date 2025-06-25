@@ -1,10 +1,10 @@
 import React from 'react';
 import {
-  SiC, SiCplusplus, SiJavascript, SiPython, SiJava,
+  SiC, SiCplusplus, SiJavascript, SiPython,
   SiHtml5, SiCss3, SiReact, SiTailwindcss, SiRedux, SiNodedotjs, SiExpress, SiJson,
   SiMongodb, SiMysql, SiPostgresql, SiGit, SiGithub, SiPostman, SiRender
 } from 'react-icons/si';
-import { FaCode, FaDatabase, FaTools, FaLaptopCode, FaGraduationCap } from 'react-icons/fa';
+import { FaCode, FaDatabase, FaTools, FaLaptopCode, FaGraduationCap, FaJava } from 'react-icons/fa';
 
 const skillCategories = [
   {
@@ -15,7 +15,7 @@ const skillCategories = [
       { name: 'C++', icon: <SiCplusplus size={16} /> },
       { name: 'JavaScript', icon: <SiJavascript size={16} /> },
       { name: 'Python', icon: <SiPython size={16} /> },
-      { name: 'Java', icon: <SiJava size={16} /> },
+      { name: 'Java', icon: <FaJava size={16} className="text-[#f8981d]" /> },
     ],
   },
   {
