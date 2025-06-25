@@ -4,7 +4,7 @@ const projects = [
   {
     title: 'DevNet – Social Platform for Developers',
     description: `A full-stack social platform enabling developers to connect, share ideas and chat in real-time.\n\nTech Stack: React + Vite, Redux, Tailwind CSS, DaisyUI, React Router, Axios, Node.js, Express, MongoDB, WebSocket.\n\nKey Features:\n• Real-time messaging via WebSockets.\n• Secure JWT authentication with bcrypt-hashed passwords.\n• Profile management with complete CRUD.\n• Optimised MongoDB queries – 30% faster API responses.\n• Polished UI/UX with Tailwind, DaisyUI & React Icons.`,
-    link: '#',
+    link: 'https://dev-net.onrender.com',
   },
   {
     title: 'CodeTracker – Competitive Programming Dashboard',
@@ -14,10 +14,10 @@ const projects = [
 ];
 
 const miniProjects = [
-  { title: 'CLI Quiz App', link: '#' },
-  { title: 'Markdown Previewer', link: '#' },
-  { title: 'Weather App', link: '#' },
-  { title: 'To-Do List', link: '#' },
+  { title: 'CodePen – Online Code Editor', link: 'https://github.com/priyanshu99ku/codepen' },
+  { title: 'MovieGPT – Netflix Clone', link: 'https://github.com/priyanshu99ku/moviegpt' },
+  { title: 'foodigo – Food Delivery App', link: 'https://github.com/priyanshu99ku/foodigo' },
+  { title: 'NewsApp – News Aggregator', link: 'https://github.com/priyanshu99ku/NEWSAPP' },
 ];
 
 const Projects = () => (

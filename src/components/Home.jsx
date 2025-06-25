@@ -1,4 +1,5 @@
 import React from 'react';
+import resumePDF from '../priyanshu kumar_Resume.pdf';
 
 const Home = () => {
   return (
@@ -20,6 +21,25 @@ const Home = () => {
         <p className="text-lg md:text-xl">
           I am a fast learner committed to continuous growth—building projects, writing clean code and mentoring others to make meaningful contributions to the tech community.
         </p>
+
+        {/* Resume Buttons */}
+        <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href={resumePDF}
+            download
+            className="btn btn-primary border-2 border-primary px-6 py-2 text-lg font-semibold rounded-md shadow-md hover:shadow-lg transition-transform hover:-translate-y-0.5"
+          >
+            Download Resume
+          </a>
+          <a
+            href={resumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline btn-primary border-2 border-primary px-6 py-2 text-lg font-semibold rounded-md shadow-md hover:shadow-lg transition-transform hover:-translate-y-0.5"
+          >
+            View Resume
+          </a>
+        </div>
       </div>
     </div>
   );
