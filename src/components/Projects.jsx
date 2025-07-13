@@ -18,6 +18,7 @@ const miniProjects = [
   { title: 'MovieGPT – Netflix Clone', link: 'https://github.com/priyanshu99ku/moviegpt' },
   { title: 'foodigo – Food Delivery App', link: 'https://github.com/priyanshu99ku/foodigo' },
   { title: 'NewsApp – News Aggregator', link: 'https://github.com/priyanshu99ku/NEWSAPP' },
+  { title: 'Text Editor', link: 'https://text-editor-tau-ten.vercel.app/' },
 ];
 
 const Projects = () => (
