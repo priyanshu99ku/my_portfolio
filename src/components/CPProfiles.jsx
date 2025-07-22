@@ -19,7 +19,7 @@ const profiles = [
     name: 'Codeforces',
     url: 'https://codeforces.com/profile/EVOLUTIONARY',
     icon: <GiCrossedSwords className="text-blue-500" size={28} />,
-    stats: 'pupil',
+    stats: 'Specialist',
   },
 ];
 
