@@ -6,7 +6,7 @@ const Home = () => {
     <div className="h-full flex flex-col items-center justify-center text-center border-2 border-primary/40 shadow-primary/20 shadow-lg rounded-xl p-6 backdrop-blur-sm bg-white/5">
       <div className="max-w-2xl">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-primary">Priyanshu Kumar</h1>
-        <h2 className="text-xl md:text-2xl mb-6 text-secondary">Final-year B.Tech (IT) • CGPA 8.06</h2>
+        <h2 className="text-xl md:text-2xl mb-6 text-secondary">Final-year B.Tech (IT) • CGPA 8.15</h2>
 
         <p className="text-lg md:text-xl mb-4">
           Full-stack developer, machine-learning enthusiast &amp; cybersecurity explorer, passionate about crafting scalable and impactful tech solutions.
