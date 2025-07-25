@@ -11,7 +11,7 @@ const profiles = [
   },
   {
     name: 'CodeChef',
-    url: 'https://www.codechef.com/users/priyanshu77777',
+    url: 'https://www.codechef.com/users/evolutionary',
     icon: <SiCodechef className="text-[#5B4638]" size={28} />,
     stats: '4★',
   },
